@@ -1,193 +1,45 @@
-# Kubernetes Administration Bootcamp (5 Days)
+# Kubernetes Administration Bootcamp
 
-Welcome to the **Kubernetes Administration Bootcamp** repository.
+Welcome to the official repository for the **Kubernetes Administration Bootcamp**.
 
-This repository contains all the labs, exercises, YAML manifests, scripts, and supporting material used during the 5-day hands-on Kubernetes training.
+This repository contains the hands-on labs, Kubernetes manifests, scripts, and supporting resources used throughout the training.
 
----
+## Training Overview
 
-## Training Objectives
-
-By the end of this training, you will be able to:
+Over the course of five days, you will learn how to:
 
 - Understand Kubernetes architecture
-- Deploy and manage applications
-- Work with Pods, Deployments, ReplicaSets, and Services
+- Deploy and manage containerized applications
 - Configure networking and storage
+- Manage workloads and cluster resources
+- Implement security and access control
 - Troubleshoot Kubernetes clusters
-- Prepare for the Certified Kubernetes Administrator (CKA) exam
+- Build the skills required for real-world Kubernetes administration
 
----
+## Course Schedule
 
-# Course Schedule
+- **Day 1** – Kubernetes Fundamentals & Architecture
+- **Day 2** – Workloads & Application Management
+- **Day 3** – Networking & Storage
+- **Day 4** – Scheduling, Security & Cluster Administration
+- **Day 5** – Troubleshooting & Hands-on Practice
 
-## Day 1 – Kubernetes Fundamentals
+## Getting Started
 
-Topics
-
-- Kubernetes Architecture
-- Control Plane Components
-- Worker Node Components
-- kubectl
-- Pods
-- Namespaces
-- Labels & Selectors
-
-Labs
-
-- Create Pods
-- Inspect Pods
-- Multi-container Pods
-- YAML Basics
-- kubectl Commands
-
----
-
-## Day 2 – Workloads
-
-Topics
-
-- ReplicaSets
-- Deployments
-- Rolling Updates
-- Rollbacks
-- DaemonSets
-- StatefulSets
-- Jobs
-- CronJobs
-
-Labs
-
-- Create Deployments
-- Scale Applications
-- Rolling Updates
-- Rollbacks
-
----
-
-## Day 3 – Networking
-
-Topics
-
-- Services
-- ClusterIP
-- NodePort
-- LoadBalancer
-- Ingress
-- DNS
-- Network Policies
-
-Labs
-
-- Expose Applications
-- Configure Services
-- Ingress Controller
-- Network Policies
-
----
-
-## Day 4 – Storage & Configuration
-
-Topics
-
-- Volumes
-- Persistent Volumes
-- Persistent Volume Claims
-- Storage Classes
-- ConfigMaps
-- Secrets
-
-Labs
-
-- Persistent Storage
-- ConfigMaps
-- Secrets
-- Dynamic Provisioning
-
----
-
-## Day 5 – Administration & Troubleshooting
-
-Topics
-
-- RBAC
-- Service Accounts
-- Security Contexts
-- Scheduling
-- Taints & Tolerations
-- Node Affinity
-- Cluster Troubleshooting
-- CKA Practice
-
-Labs
-
-- RBAC
-- Scheduling
-- Troubleshooting Scenarios
-- Mock CKA Exercises
-
----
-
-# Repository Structure
-
-```
-.
-├── labs
-│   ├── day01
-│   ├── day02
-│   ├── day03
-│   ├── day04
-│   └── day05
-│
-├── scripts
-│
-├── diagrams
-│
-├── solutions
-│
-└── README.md
-```
-
----
-
-# Prerequisites
-
-- Basic Linux knowledge
-- Docker fundamentals
-- Laptop with Internet access
-- kubectl installed
-
----
-
-# Useful Commands
+Clone the repository:
 
 ```bash
-kubectl get pods
-kubectl get nodes
-kubectl get deployments
-kubectl describe pod <pod-name>
-kubectl logs <pod-name>
-kubectl exec -it <pod-name> -- bash
+git clone https://github.com/ITMan-1/cka.git
 ```
 
----
+Navigate to the project directory:
 
-# Recommended Practice
+```bash
+cd cka
+```
 
-Complete every lab before moving to the next day.
-
-Practice all YAML files from scratch without copying them.
-
-Repeat the troubleshooting labs multiple times.
+Follow the instructor's guidance and complete the labs for each training day.
 
 ---
 
-# Instructor
-
-**Ismail AIT ZAID**
-
-DevOps | Kubernetes | OpenShift | Platform Engineering
-
----
-
-Happy Learning!
+**Instructor:** Ismail AIT ZAID
