@@ -1,14 +1,17 @@
-ON AL NODES
-git clone https://github.com/sandervanvugt/cka
-cd cka
-./setup-container.sh
-sudo ./setup-kubetools-specific-version.sh
+ON AL NODES:
+
+1- git clone https://github.com/ITMan-1/cka.git
+2- cd cka/scripts
+3- ./setup-container.sh
+4- sudo ./setup-kubetools-specific-version.sh
 
 ON CONTROL NODE
+
 sudo kubeadm init
 READ COMMAND OUTPUT!!!!
 
 ON CONTROL NODE
+
 mkdir -p $HOME/.kube
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
