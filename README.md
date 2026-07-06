@@ -1,44 +1,193 @@
-# Kubernetes — 5-Day Professional Training
+# Kubernetes Administration Bootcamp (5 Days)
 
-A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT professionals from the history of infrastructure (physical servers → virtual machines → containers) all the way to running Kubernetes in a highly available, production-grade setup.
+Welcome to the **Kubernetes Administration Bootcamp** repository.
 
-**Trainer:** Ismail Azid
+This repository contains all the labs, exercises, YAML manifests, scripts, and supporting material used during the 5-day hands-on Kubernetes training.
 
-**Audience:** IT people new to containers and Kubernetes
+---
 
-**Format:** Theory in the morning, hands-on labs in the afternoon
+## Training Objectives
 
-## Course Outline
+By the end of this training, you will be able to:
 
-| Day | Focus | Key Topics |
-|-----|-------|------------|
-| **1** | History & Foundations | Physical servers → Virtual Machines → Containers → why Kubernetes was born; advantages/disadvantages at each step |
-| **2** | Architecture & Core Objects | Control plane vs. worker nodes, Pods, ReplicaSets, Deployments, Namespaces — **Lab: install a cluster (1 master + 2 workers)** |
-| **3** | Networking & Storage | Services (ClusterIP/NodePort/LoadBalancer), Ingress, Volumes, PV/PVC, ConfigMaps, Secrets, StatefulSets |
-| **4** | Operations at Scale | Helm, RBAC, resource requests/limits, Horizontal Pod Autoscaler, liveness/readiness probes, monitoring & logging |
-| **5** | Production & High Availability | HA control plane (**3 masters**), external **load balancer**, worker pool, etcd quorum, backup/DR, capstone lab |
+- Understand Kubernetes architecture
+- Deploy and manage applications
+- Work with Pods, Deployments, ReplicaSets, and Services
+- Configure networking and storage
+- Troubleshoot Kubernetes clusters
+- Prepare for the Certified Kubernetes Administrator (CKA) exam
 
-Each day ends with a hands-on lab; Day 5 closes with a capstone exercise that builds the full production topology (3 masters + load balancer + workers).
+---
 
-## Prerequisites
+# Course Schedule
 
-- Basic Linux command-line skills
-- Basic understanding of networking (IP, DNS, ports)
-- A laptop capable of running 3–4 VMs or containers locally (8 GB RAM minimum, 16 GB recommended)
+## Day 1 – Kubernetes Fundamentals
 
-## Lab Environment
+Topics
 
-| Stage | Setup |
-|-------|-------|
-| Days 2–4 | 1 master node + 2 worker nodes (kind / minikube / kubeadm) |
-| Day 5 (capstone) | 3 master nodes + 1 load balancer + worker nodes (HA topology) |
+- Kubernetes Architecture
+- Control Plane Components
+- Worker Node Components
+- kubectl
+- Pods
+- Namespaces
+- Labels & Selectors
 
-**Tools used:** Docker, kubectl, kubeadm / kind / minikube, Helm, a load balancer (HAProxy or cloud LB), Prometheus & Grafana (intro only)
+Labs
 
-## Repository Structure
+- Create Pods
+- Inspect Pods
+- Multi-container Pods
+- YAML Basics
+- kubectl Commands
 
-<img width="466" height="211" alt="image" src="https://github.com/user-attachments/assets/0873142b-06a1-495b-a109-cb50bf8b782c" />
+---
 
-## Contact
+## Day 2 – Workloads
 
-Questions about this training: **Ismail Azid**
+Topics
+
+- ReplicaSets
+- Deployments
+- Rolling Updates
+- Rollbacks
+- DaemonSets
+- StatefulSets
+- Jobs
+- CronJobs
+
+Labs
+
+- Create Deployments
+- Scale Applications
+- Rolling Updates
+- Rollbacks
+
+---
+
+## Day 3 – Networking
+
+Topics
+
+- Services
+- ClusterIP
+- NodePort
+- LoadBalancer
+- Ingress
+- DNS
+- Network Policies
+
+Labs
+
+- Expose Applications
+- Configure Services
+- Ingress Controller
+- Network Policies
+
+---
+
+## Day 4 – Storage & Configuration
+
+Topics
+
+- Volumes
+- Persistent Volumes
+- Persistent Volume Claims
+- Storage Classes
+- ConfigMaps
+- Secrets
+
+Labs
+
+- Persistent Storage
+- ConfigMaps
+- Secrets
+- Dynamic Provisioning
+
+---
+
+## Day 5 – Administration & Troubleshooting
+
+Topics
+
+- RBAC
+- Service Accounts
+- Security Contexts
+- Scheduling
+- Taints & Tolerations
+- Node Affinity
+- Cluster Troubleshooting
+- CKA Practice
+
+Labs
+
+- RBAC
+- Scheduling
+- Troubleshooting Scenarios
+- Mock CKA Exercises
+
+---
+
+# Repository Structure
+
+```
+.
+├── labs
+│   ├── day01
+│   ├── day02
+│   ├── day03
+│   ├── day04
+│   └── day05
+│
+├── scripts
+│
+├── diagrams
+│
+├── solutions
+│
+└── README.md
+```
+
+---
+
+# Prerequisites
+
+- Basic Linux knowledge
+- Docker fundamentals
+- Laptop with Internet access
+- kubectl installed
+
+---
+
+# Useful Commands
+
+```bash
+kubectl get pods
+kubectl get nodes
+kubectl get deployments
+kubectl describe pod <pod-name>
+kubectl logs <pod-name>
+kubectl exec -it <pod-name> -- bash
+```
+
+---
+
+# Recommended Practice
+
+Complete every lab before moving to the next day.
+
+Practice all YAML files from scratch without copying them.
+
+Repeat the troubleshooting labs multiple times.
+
+---
+
+# Instructor
+
+**Ismail AIT ZAID**
+
+DevOps | Kubernetes | OpenShift | Platform Engineering
+
+---
+
+Happy Learning!
