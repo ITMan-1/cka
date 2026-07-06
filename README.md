@@ -3,7 +3,9 @@
 A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT professionals from the history of infrastructure (physical servers → virtual machines → containers) all the way to running Kubernetes in a highly available, production-grade setup.
 
 **Trainer:** Ismail Azid
+
 **Audience:** IT people new to containers and Kubernetes
+
 **Format:** Theory in the morning, hands-on labs in the afternoon
 
 ## Course Outline
