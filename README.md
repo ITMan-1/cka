@@ -6,7 +6,6 @@ A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT pr
 **Audience:** IT people new to containers and Kubernetes
 **Format:** Theory in the morning, hands-on labs in the afternoon
 
----
 
 ## Course Outline
 
@@ -20,7 +19,6 @@ A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT pr
 
 Each day ends with a hands-on lab; Day 5 closes with a capstone exercise that builds the full production topology (3 masters + load balancer + workers).
 
----
 
 ## Prerequisites
 
