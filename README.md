@@ -1,4 +1,4 @@
-# Kubernetes Administration Bootcamp
+<h1 align="center">Kubernetes Administration Bootcamp</h1>
 
 Welcome to the official repository for the **Kubernetes Administration Bootcamp**.
 
