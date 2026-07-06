@@ -6,7 +6,6 @@ A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT pr
 **Audience:** IT people new to containers and Kubernetes
 **Format:** Theory in the morning, hands-on labs in the afternoon
 
-
 ## Course Outline
 
 | Day | Focus | Key Topics |
@@ -18,7 +17,6 @@ A 5-day, instructor-led course (6 hours/day — 30 hours total) that takes IT pr
 | **5** | Production & High Availability | HA control plane (**3 masters**), external **load balancer**, worker pool, etcd quorum, backup/DR, capstone lab |
 
 Each day ends with a hands-on lab; Day 5 closes with a capstone exercise that builds the full production topology (3 masters + load balancer + workers).
-
 
 ## Prerequisites
 
@@ -37,17 +35,7 @@ Each day ends with a hands-on lab; Day 5 closes with a capstone exercise that bu
 
 ## Repository Structure
 
-```
-.
-├── README.md
-├── slides/              # Day-by-day slide decks (.pptx)
-├── labs/                # Step-by-step lab guides per day
-│   ├── day2-cluster-install/
-│   ├── day3-storage-networking/
-│   ├── day4-helm-autoscaling/
-│   └── day5-ha-production/
-└── resources/           # Cheat sheets, YAML samples, diagrams
-```
+<img width="466" height="211" alt="image" src="https://github.com/user-attachments/assets/0873142b-06a1-495b-a109-cb50bf8b782c" />
 
 ## Contact
 
